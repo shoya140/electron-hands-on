@@ -1,0 +1,18 @@
+{
+  "name": "electron-hands-on",
+  "version": "0.1.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:mac": "electron-packager . --out=dist --platform=darwin --arch=x64 --overwrite",
+    "build:win": "electron-packager . --out=dist --platform=win32 --arch=x64 --overwrite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.8.4",
+    "electron-packager": "^12.0.0"
+  }
+}
